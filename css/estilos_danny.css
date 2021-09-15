@@ -1,0 +1,218 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+</style>
+
+/* Small (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px){  
+ body{ background-color: yellow;}
+ 
+ /*body .galeria{
+ 	display: none;
+ */
+ } 
+ 
+/*Medium  (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991px){ 
+ body{ background-color: green;}
+}
+
+/*Large  (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199px) { 
+ body{ background-color: blue;}
+}
+
+/* X-Large  (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399px) {
+ body{ background-color: red;}
+ main {
+	width: 90%;
+    height: auto;
+    max-width: 1399px;
+    margin-right: auto;
+    margin-left: auto
+}
+	}
+
+/* XX-Large  (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) { 
+body{	background-color: black;}
+ }
+
+
+
+main {
+	width: 90%;
+    height: auto;
+    max-width: 1280px;
+    background-color: #d1d8e0;
+    margin-right: auto;
+    margin-left: auto
+}
+
+header{
+	width: 100%;
+	height: 153px;
+	background-color: #747d8c;
+}
+
+header a img{
+	padding-left: 500px;
+    padding-top: 9px;
+}
+
+/*------------------------------------------------- DANNY
+*/
+
+
+.contenedor_personaje {
+	display: flex;
+    flex-direction: row;
+}
+
+.contenedor_personaje div {
+	box-shadow: inset 0px 0px 2px, 0px 0px 21px #2ed573;
+    border-radius: 18px;
+    padding: 2%;
+    margin: 9% 2% 4% 2%;
+}
+
+
+.contenedor_personaje img {
+	height: 35rem;
+    width: auto;
+    margin: 1% 0.5% 1% 0.5%;
+}
+
+h1 {
+	color: #a55eea;
+    font-family: sans-serif;
+    font-size: 28px;
+    margin-left: 8%;
+    margin-bottom: 2%;
+}
+
+.negrita{
+	font-weight: bold;
+}
+
+.cursiva{
+	font-style: italic;
+}
+/*------------------------------------------------- GALERIA
+*/
+
+/*.galeria {
+margin-left: 2%;
+margin-bottom: 3%;
+padding-left: 1.5%;
+padding-top: 2%;
+background-color: #fdd63b;
+width: 95%;
+height: 250px;
+}
+*/
+
+.galeria h1{
+	color: ;
+	text-shadow: 3px 0px 11px darkslategrey;
+}
+
+.galeria a{
+	margin-left: 8%;
+}
+
+.Sam {
+	height: 35rem;
+    width: auto;
+    margin: 1% 0 1% 1%;
+}
+
+.Tucker {
+	height: 35rem;
+    width: auto;
+    margin: 1% 0 1% 1%;
+}
+
+/*------------------------------------------------- AMIGOS
+*/
+
+.amigos{
+	margin-top: 3%;
+}
+
+.amigos h1{
+	font-family: sans-serif;
+    color: #129e37;
+    text-shadow: 1px 0px 12px darkslategrey;
+}
+
+.amigos h2{
+	color: blueviolet;
+    font-size: 26px;
+}
+
+.contenedor_amigos{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+.contenedor_amigos div{
+	margin: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.contenedor_amigos div p{
+	box-shadow: inset 0px 0px 2px, 0px 0px 21px #8854d0;
+    padding: 2%;
+    border-radius: 10px;
+    margin: 1% 7% 3% 3%;
+}
+
+/*------------------------------------------------- FOOTER
+*/
+
+footer{
+	width: 100%;
+	height: 74px;
+	background-color: #57606f;
+}
+
+footer img{
+	height: 62px;
+}
+
+.columna-left{
+	float: left;
+	width: 20%;
+}
+
+.columna-left a img{
+	padding: 2%;
+}
+
+.columna-central{
+	display: inline-block;
+    width: 40%;
+    padding-left: 22%;
+    padding-top: 2%;
+    font-size: 19px;
+}
+
+.columna-central a {
+	text-decoration: none;
+	color: #f1f2f6;
+}
+
+.columna-right{
+	float: right;
+	padding-right: 1%;
+  padding-top: 0.5%;
+}
+
+.columna-right a img{
+	padding: 0 1% 1% 0;
+}
